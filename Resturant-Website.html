@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fat Chef </title>
+    <link rel="stylesheet" href="Resturant-Website.css">
+    <link rel="stylesheet" href="bootstrap5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Bree+Serif&family=Courgette&family=Lora&family=Montserrat:wght@300&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <section id="navbar" class="py-3">
+        <div class="container ">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg  d-flex vw-100 navbar-light  ">
+                    <a class="navbar-brand " href="#"><img class="rounded py-1" src="images/1.jpg" alt=""></a>
+                    <div class="collapse navbar-collapse  justify-content-between text-uppercase "
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav  ">
+                            <li class="nav-item  ">
+                                <a href="#home" class="nav-link m-xl-3 nav-a ">Home</a>
+                            </li>
+                            <li class=" nav-item m-xl-3 ">
+                                <a href="#menu-sec" class="nav-link nav-a ">Menu</a>
+                            </li>
+                            <li class="nav-item m-xl-3 ">
+                                <a href="#reservation" class="nav-link nav-a ">Reservation</a>
+                            </li>
+                            <li class="nav-item m-xl-3 ">
+                                <a href="#footer" class="nav-link nav-a ">Gallery</a>
+                            </li>
+                            <li class="nav-item m-xl-3">
+                                <a href="#review-sec" class="nav-link nav-a ">About</a>
+                            </li>
+                            <li class="nav-item m-xl-3">
+                                <a href="#news-sec" class="nav-link nav-a ">Blog</a>
+                            </li>
+                            <li class="nav-item m-xl-3 ">
+                                <a href="#footer" class="nav-link nav-a ">Contact</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled d-flex  m-lg-4" id="social-bar">
+                            <li class="mt-4"><a href="#" class="nav-a"><i class="fa-brands fa-discord  "></i></a></li>
+                            <li class="mx-3 mt-4 "><a href="#" class="nav-a"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li class="mt-4"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <!-- <li class="li-1 mx-5">
+                                <button class="btn border-0" id="side-bar-btn" href="#"><i style="font-size: 2rem;"
+                                        class="fa-solid fa-bars"></i></button>
+                            </li> -->
+                        </ul>
+
+                    </div>
+                    <button class="text-light border-0 navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+        </div>
+        <div id="sideBarCon">
+            <div id="side-bar"  class="bg-white closed">
+                <ul class="list-group text-danger ">
+                    
+                    <li class="list-group-item border-0 text-center d-flex justify-content-end align-items-center"></li>
+                    <li class="list-group-item border-0 text-center "><a class="text-dark btn " href="#home">Home</a></li>
+                    <li class="list-group-item  border-0 text-center"><a class="text-dark btn" href="#menu-sec">Menu</a>
+                    </li>
+                    <li class="list-group-item border-0 text-center "><a class="text-dark btn"
+                            href="#reservation">Reservation</a></li>
+                    <li class="list-group-item  border-0 text-center"><a class="text-dark btn " href="#footer">Gallery</a>
+                    </li>
+                    <li class="list-group-item border-0  text-center"><a class="text-dark btn" href="#carousel-2">About</a>
+                    </li>
+                    <li class="list-group-item border-0 text-center "><a class="text-dark btn" href="#news-sec">Blog</a>
+                    </li>
+                    <li class="list-group-item border-0 text-center "><a class="text-dark btn" href="#footer">Contact</a>
+                    </li>
+                </ul>
+                <div class="col bg-white py-5 px-3">
+                    <div class="col ">
+                        <h3 class="text-center display-5 coregette text-danger">Gallery</h3>
+                    </div>
+                    <img src="images/deliciousfood.jpg" alt="">
+                    <img src="images/food.jpg" alt="">
+                    <img src="images/table.jpg" alt="">
+                    <img src="images/dessert (2).jpg" alt="">
+                    <img src="images/food (6).jpg" alt="">
+                    <img src="images/resturantinner.jpg" alt="">
+                    <img src="images/dessert.jpg" alt="">
+                    <img src="images/burder.jpg" alt="">
+                    <img src="images/redwine.jpg" alt="">
+                    <img src="images/dessert (3).jpg" alt="">
+                    <img src="images/happyhour.jpg" alt="">
+                    <img src="images/food (1).jpg" alt="">
+                    <img src="images/food (2).jpg" alt="">
+                    <img src="images/food (3).jpg" alt="">
+                    <img src="images/food (4).jpg" alt="">
+                    <img src="images/resturantinner.jpg" alt="">
+                    <img src="images/dessert.jpg" alt="">
+                    <img src="images/burder.jpg" alt="">
+                    <img src="images/food (5).jpg" alt="">
+                    <img src="images/burder.jpg" alt="">
+                </div>
+                <div class="col text-center bg-white">
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home">
+        <div id="carousel-sec" class="carousel carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators list-unstyled">
+                <li data-target="#carousel-sec" data-slide-to="0" onclick="nextItem()" class="active text-light display-5" ><i class="fa-solid fa-minus"></i></li>
+                <li data-target="#carousel-sec" data-slide-to="1" onclick="prevItem()" class="text-light display-5 " ><i class="fa-solid fa-minus"></i></li>
+                <li data-target="#carousel-sec" data-slide-to="2" onclick="nextItem()" class="text-light display-5 " ><i class="fa-solid fa-minus"></i></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item  active">
+                    <img src="images/1 (1).jpg" class="d-block w-lg-100 vw-md-75 vh-100 vw-sm-50 " alt="...">
+                    <div class="carousel-caption   d-md-block .overflow-hidden  ">
+                        <div class="wel-con overflow-hidden ">
+                            <h5  class="h-primary coregette welcome">Welcome to</h5>
+                        </div> 
+                        <div class="fat-con overflow-hidden">
+                            <h1  class="h-secondary poppi Fat">Fat Chef's</h1>
+                        </div>
+                        <div class="restur-con overflow-hidden ">
+                            <h5  class="h-primary coregette restur">Resturant</h5>
+                        </div>
+
+                        <div class="btn-container  h-25 p-5 overflow-hidden">
+                            <button  class="btn btn-light btn-lg car-btn shadow-lg ">Look Menu</button>
+                        </div>
+                            
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/1 (2).jpg" class="d-block w-lg-100 vw-md-75 vh-100 vw-sm-50" alt="...">
+                    <div class="carousel-caption   d-md-block  ">
+                        <div class="wel-con overflow-hidden ">
+                            <h5  class="h-primary  coregette welcome">Welcome to</h5>
+                        </div>
+                        <div class="fat-con">
+                            <h1  class="h-secondary poppi Fat">Fat Chef's</h1>
+                        </div>
+                        <div class="restur-con overflow-hidden">
+                            <h5  class="h-primary coregette restur">Resturant</h5>
+                        </div>
+
+                        <div class="btn-container  h-25 p-5 overflow-hidden">
+                            <button  class="btn btn-light btn-lg car-btn shadow-lg ">Look Menu</button>
+                        </div>
+                            
+                    </div>
+                </div>
+                <div class="carousel-item  ">
+                    <img src="images/1 (3).jpg" class="d-block w-lg-100 vh-100 vw-md-75 vw-sm-50" alt="...">
+                    <div class="carousel-caption    d-md-block">
+                        <div class="wel-con overflow-hidden">
+                            <h5  class="h-primary coregette welcome">Welcome to</h5>
+                        </div>
+                        <div class="fat-con">
+                            <h1  class="h-secondary poppi Fat">Fat Chef's</h1>
+                        </div>
+                        <div class="restur-con overflow-hidden">
+                            <h5  class="h-primary coregette restur">Resturant</h5>
+                        </div>
+
+                        <div class="btn-container  h-25 p-5 overflow-hidden">
+                            <button  class="btn btn-light btn-lg car-btn shadow-lg ">Look Menu</button>
+                        </div>
+                            
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev"  href="#carousel-sec" onclick="prevItem()" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"  ></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next boder" onclick="nextItem()" href="#carousel-sec" role="button" data-slide="next">
+                <span class=" carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="intro-sec">
+        <div class="container  py-5">
+            <div class="card border-0">
+                <div class="row ">
+                    <div class="col-md-6 p-5 ">
+                        <div class="card-body b">
+                            <div class="card-subtitle">
+                                <h3 class="text-danger text-center coregette h-tertiary"><i>Italian Resturant</i></h3>
+                            </div>
+                            <div class="card-title">
+                                <h1 class="h-primary text-center poppi">Welcome</h1>
+                            </div>
+                            <div class="card-text">
+                                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                                    minus illo reprehenderit
+                                    doloremque, molestiae non dicta exercitationem molestias recusandae, soluta vitae
+                                    magni illum.</p>
+                            </div>
+                            <a href="#" class="card-link btn m-auto d-block monserraat">Our story<i
+                                    class="fa-solid fa-arrow-right mx-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-5 ">
+                        <div class="card-img-container rounded overflow-hidden">
+                            <img src="images/burder.jpg" class="card-img" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="discov-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <h3 class="  text-danger display-4   text-center coregette pt-5">Discover</h3>
+                <h5 class="text-center display-1 text-light  poppi">Fat Chef</h5>
+                <h3 class="text-light  display-1  text-center coregette">Resturaunt</h3>
+                <div class="col d-flex flex-column align-items-center justify-content-center py-5 ">
+                    <hr class=" text-light text-center w-75">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" id="sample-sec">
+        <div class="container">
+            <div class="row">
+                <div class="card-group">
+                    <div class="col-md-4 ">
+                        <div class="card mx-3">
+                            <div class="card-img-div rounded">
+                                <img src="images/resturantinner.jpg" alt="" class="card-img ">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3 class="py-2 monserraat">Romantic Resturant</h3>
+                                </div>
+                                <p class="card-text lead p-2">Lorem ipsum, dolor sit amet cons Lorem ipsum dolor sit
+                                    amet.</p>
+                                <div class="card-link "><a href="#" class="btn">read more<i
+                                            class="fa-solid fa-arrow-right mx-2"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mx-3 ">
+                            <div class="card-img-div rounded">
+                                <img src="images/deliciousfood.jpg" alt="" class="card-img ">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3 class="py-2 monserraat">Dalicious Food</h3>
+                                </div>
+                                <p class="card-text py-2 lead">Lorem ipsum dolor sit aVeniam, doloribus quis!</p>
+                                <div class="card-link"><a href="#" class="btn">read more<i
+                                            class="fa-solid fa-arrow-right mx-2"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-2">
+                        <div class="card m-2">
+                            <div class="card-img-div rounded ">
+                                <img src="images/redwine.jpg" alt="" class="card-img ">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title py-2">
+                                    <h3 class="monserraat">Red Wines you love</h3>
+                                </div>
+                                <p class="card-text py-2 lead">Lorem ipsum dolor sit amet consectetur adceat.</p>
+                                <div class="card-link"><a href="#" class="btn">read more<i
+                                            class="fa-solid fa-arrow-right mx-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+    <section id="menu-sec">
+        <div class="container-fluid  bg-white py-5">
+
+
+            <div class="container bg-white">
+                <h3 class="text-center  text-danger h-tertiary coregette">DISCOVER</h3>
+                <h1 class="text-center h-primary poppi text-weight-bolder">OUR MENU</h1>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 card " id="lun-din">
+                        <div class="lun-din">
+                            <img src="images/lunch.jpg" alt="" class="card-img">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="card-link btn btn-light btn-lg poppi">LUNCH</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 card " id="lun-din">
+                        <div class="lun-din">
+                            <img src="images/dinner.jpg" alt="" class="card-img">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="card-link btn btn-light btn-lg poppi">DINNER</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12  d-flex  flex-lg-column " id="drink-sec">
+                        <div class="card drink-sec">
+                            <img src="images/drink.jpg" class="card-img img-fluid " alt="">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="card-link btn btn-light btn-lg poppi">DRINKS</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card drink-sec">
+                            <img src="images/starter.jpg" class="card-img img-fluid" alt="">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="card-link btn btn-lg  btn-light poppi">STARTERS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7  col-md-12 mx-md-4    card " id="happy-drnk">
+                        <div class="happy-drnk  ">
+                            <img src="images/happyhour.jpg" class="card-img img-fluid card-img-overlay p-md-0" alt="">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="card-link btn btn-lg poppi btn-light ">HAPPY HOUR </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4  m-md-3 my-3 card" id="dessert">
+                        <div class="dessert">
+                            <img src="images/dessert (3).jpg" class="card-img img-fluid card-img-overlay p-0" alt="">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="card-link btn btn-lg poppi  btn-light ">DESSERT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="event-sec" class="py-5 my-5">
+        <div class="container py-5">
+            <h3 class="h-tertiary text-center coregette text-danger tex ">Upcoming</h3>
+            <h1 class="poppi text-center display-2 ">Events</h1>
+            <div class="row">
+                <div class="jumbotron  d-flex flex-column flex-md-row rounded">
+                    <div class="col-md-1 text-light bg-danger vertical-text  lead  d-none d-md-flex rounded">
+                        <p>Starting on 12 Dec 2023 at 8:00 pm </p>
+                    </div>
+                    <div class="col-md-1 d-block text-light  bg-danger lead w-100 d-md-none rounded">
+                        <p>Starting on 12 Dec 2023 at 8:00 pm </p>
+                    </div>
+                    <div class="col-md-3 overflow-hidden rounded"><img src="images/sidhuMoosewala4.jpg" alt=""
+                            class="img-fluid"></div>
+                    <div class="col-md-8 bg-white">
+                        <h2 class="display-4 text-center p-3">WINES DURING SPECIFIC NIGHTS</h2>
+                        <p class="lead p-3 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Deserunt, autem. Consequuntur!</p>
+
+                        <div class="box d-flex p-md-3 justify-content-around mx-md-5">
+                            <div class="card border-0">
+                                <div id="card-1" class="p-md-3 p-2 display-5  lora"></div>
+                                <small class="text-center coregette">Days</small>
+                            </div>
+                            <h3 class="display-5 text-danger my-auto">:</h3>
+                            <div class="card border-0">
+                                <div id="card-2" class="p-md-3 p-2 display-5 lora"></div>
+                                <small class="text-center  coregette">Hours</small>
+                            </div>
+                            <h3 class="display-5 text-danger my-auto">:</h3>
+                            <div class="card border-0 ">
+                                <div id="card-3" class="p-md-3 p-2 display-5 lora"></div>
+                                <small class="text-center  coregette">Minutes</small>
+                            </div>
+                            <h3 class="display-5 text-danger my-auto ">:</h3>
+                            <div class="card border-0">
+                                <div id="card-4" class="p-md-3 p-2 display-5 lora"></div>
+                                <small class="text-center coregette ">Seconds Left</small>
+                            </div>
+                        </div>
+
+
+                        <a href="#" class="btn text-center d-block coregette py-5 ">View Details<i
+                                class="fa-solid fa-arrow-right mx-2"></i></a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="reservation">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card  border-0">
+                        <h5 class="text-center h-tertiary coregette text-danger">Reservation</h5>
+                        <h1 class="text-center display-4 poppi ">Book Table</h1>
+                        <div class=" d-md-flex d-block m-auto align-items-center">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="date" d>Date</label>
+                                    <input type="date" id="date" type="text" placeholder="select-date"
+                                        class="custom-input form-control">
+
+                                </div>
+                                <div class="form-group my-2">
+                                    <label for="time">Time</label>
+                                    <input type="time" class="custom-input form-control" id="time">
+                                </div>
+                                <div class="form-group my-2">
+                                    <label for="select" class="">People</label>
+                                    <select name="" id="select" class="custom-input form-control">
+                                        <option value="option1">1 person</option>
+                                        <option value="option2">2 people</option>
+                                        <option value="option3">3 people</option>
+                                        <option value="option4">4 people</option>
+                                        <option value="option5">5 people</option>
+                                        <option value="option6">6 people</option>
+                                        <option value="option7">7 people</option>
+                                        <option value="option8">8 people </option>
+                                        <option value="option9">9 people</option>
+                                        <option value=option10">10 people</option>
+                                        <option value="option11">11 people</option>
+                                        <option value="option12">12 people</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-3 d-block d-md-flex flex-column">
+                                <div class="form-group ">
+                                    <label for="name" class="custom-control-label">Name</label>
+                                    <input type="text" class="custom-input form-control reserv-input " id="name"
+                                        placeholder="Name">
+                                </div>
+                                <div class="form-group my-2">
+                                    <label for="phone">Phone</label>
+                                    <input type="text" id="phone" class="custom-input reserv-input form-control"
+                                        placeholder="Phone Number">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="custom-input reserv-input  form-control" id="email"
+                                        placeholder="Email">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 ">
+                        <div class="col-md-2 text-center ">
+                            <a class="btn btn-dark btn-lg "> BOOK NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center ">
+                    <div class="card border-0 overflow-hidden ">
+                        <img src="images/table.jpg" class="card-img img-fluid" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="review-sec">
+
+        <div class="container my-5">
+            <div class="row my-5">
+                <h1 class="text-center display-5 coregette text-danger">Customer Say</h1>
+                <h3 class="text-center display-1 poppi">Review</h3>
+            </div>
+            <div class="row">
+                <div id="carousel-2" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <div class="jumbotron">
+                                <div class="card border-0 ">
+                                    <img src="images/billGates.jpg" alt="" class="card-img img-fluid">
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p class="lead text-center ">Lorem ipsum Lorem, ipsum dolor sit amet
+                                                consecte dolor sit amet consectetur adipisicing elit. Ut, labore sit?
+                                            </p>
+                                        </div>
+                                        <div class="card-caption text-muted"><small>Will Gates Mi</small></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="jumbotron">
+                                <div class="card border-0 ">
+                                    <img src="images/buisness (2).jpg" alt="" class="card-img img-fluid">
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p class="lead text-center ">Lorem ipsum Lorem, ipsum dolor sit amet
+                                                consecte dolor sit amet consectetur adipisicing elit. Ut, labore sit?
+                                            </p>
+                                        </div>
+                                        <div class="card-caption text-muted"><small>Ali BABA 40</small></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="jumbotron">
+                                <div class="card border-0 ">
+                                    <img src="images/buisness (1).jpg" alt="" class="card-img img-fluid">
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p class="lead text-center">Lorem ipsum Lorem, ipsum dolor sit amet consecte
+                                                dolor sit amet consectetur adipisicing elit. Ut, labore sit?</p>
+                                        </div>
+                                        <div class="card-caption text-muted"><small>Don't Know</small></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carousel-2" data-slide="prev">
+                        <span class="carousel-control-prev-icon text-danger display-5 "><i
+                                class="fa-solid fa-chevron-left"></i></span>
+                        <span class="visually-hidden">PREV</span>
+                    </button>
+                    <button class="carousel-control-next" class="" type="button" data-target="#carousel-2"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon display-5 text-danger"><i
+                                class="fa-solid fa-chevron-right"></i></span>
+                        <span class="visually-hidden">NEXT</span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-target="#carousel-2" class="text-danger display-5 border-0 bg-light"
+                            data-slide-to="0" aria-current="true" aria-label="slide 1"><i
+                                class="fa-solid fa-minus"></i></button>
+                        <button type="button" class="text-danger display-5 border-0 bg-light" data-target="#carousel-2"
+                            data-slide-to="1" aria-label="slide-2"><i class="fa-solid fa-minus"></i></button>
+                        <button type="button" data-target="#carousel-2" class="text-danger display-5 border-0 bg-light"
+                            data-slide-to="2" aria-label="3"><i class="fa-solid fa-minus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center flex-column align-items-center ">
+                    <h3 class="text-center text-danger coregette display-5 ">discover</h3>
+                    <h1 class="text-center display-1 text-light ">OUR VIDEO</h1>
+                    <div class="btn d-block">
+                        <button class="" data-toggle="modal" data-target="#myvideo"><i
+                                class="fa-solid fa-play"></i></button>
+                        <div class="modal fade  modal-lg" id="myvideo">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="text-danger  baloo lead ">MAINTAINING BRAND SINCE 1990</h3>
+                                        <button data-dismiss="modal" class="btn "> <i class="fa-solid fa-xmark"></i>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe max-width="700" max-height="315" alt="video loading"
+                                            src="https://www.youtube.com/embed/xPPLbEFbCAo?si=LKtNfkvJtNWth3P5"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>@copy-rights to Fat Man's Resturant</small>
+                                    </div>
+                                    <button data-dismiss="modal" id="closeBtn" class="btn btn-danger">close</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5" id="news-sec">
+        <div class="container">
+            <h3 class="h-primary text-center text-danger coregette">Latest News</h3>
+            <h1 class="display-1 text-center poppi">THE BLOG</h1>
+            <div class="row">
+                <div class="card-group">
+                    <div class="col-md-4 ">
+                        <div class="card mx-3">
+                            <div class="card-img-div rounded">
+                                <img src="images/news-3.jpg" alt="" class="card-img ">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3 class="py-2 monserraat">BEST PLACES FOR WINE</h3>
+                                </div>
+                                <p class="card-text lead p-2">Lorem ipsum, dolor sit amet cons Lorem ipsum dolor sit
+                                    amet.</p>
+                                <div class="card-link "><a href="#" class="btn">read more<i
+                                            class="fa-solid fa-arrow-right mx-2"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mx-3 ">
+                            <div class="card-img-div rounded">
+                                <img src="images/news-2.jpg" alt="" class="card-img ">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3 class="py-2 monserraat">EGGS AND CHEESE</h3>
+                                </div>
+                                <p class="card-text py-2 lead">Lorem ipsum dolor sit aVeniam, doloribus quis!</p>
+                                <div class="card-link"><a href="#" class="btn">read more<i
+                                            class="fa-solid fa-arrow-right mx-2"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mx-3">
+                            <div class="card-img-div rounded ">
+                                <img src="images/news-1.jpg" alt="" class="card-img ">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title py-2">
+                                    <h3 class="monserraat">STYLE THE WEDDING PARTY</h3>
+                                </div>
+                                <p class="card-text py-2 lead">Lorem ipsum dolor sit amet consectetur adceat.</p>
+                                <div class="card-link"><a href="#" class="btn">read more<i
+                                            class="fa-solid fa-arrow-right mx-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+    <section id="sign-up" class="py-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-md-flex justify-content-center">
+                    <h3 class="px-md-5 .lh poppi">SPECIAL SIGN UP</h3>
+                    <div class="form-group d-md-flex ">
+                        <label for="SignUpEmail" class="poppi p-2">Email</label>
+                        <input type="email" id="SignUpEmail" class="form-control  ">
+                    </div>
+                    <button class="btn btn-dark poppi mx-2 my-2">SIGN-UP</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="bg-dark">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3 class="monserraat">CONTACT US</h3>
+                            </div>
+                            <div class="card-text">
+                                <ul class="list-unstyled">
+                                    <li><a href="" class="btn text-white-50  monserraat "><i
+                                                class="fa-solid fa-location-dot text-danger mx-2"></i>8th floor, 379
+                                            Hudson St, New York, NY 10018</a></li>
+                                    <li><a href="" class="btn text-white-50 "> <i
+                                                class="fa-solid fa-phone text-danger mx-2"></i> (+1) 96 716 6879</a>
+                                    </li>
+                                    <li><a href="" class="btn text-white-50 "><i
+                                                class="fa-regular fa-envelope text-danger mx-2 "></i>contact@site.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-dark">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3 class="text-light monserraat ">Opening Time</h3>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li class="text-white-50 monserraat"><i
+                                        class="fa-solid fa-calendar-days text-danger mx-2"></i>09:30-11:00</li>
+                                <li class="text-white-50 monserraat"><i
+                                        class="fa-solid fa-calendar-days text-danger mx-2"></i>EVERY DAY</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark">
+                        <div class="card-header">
+                            <h3 class="text-light monserraat ">LATEST TWITTER</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-subtitle text-danger monserraat "><i
+                                    class="fa-brands fa-twitter mx-2"></i>Fat Chef's resturent</div>
+                            <p class="text-white-50 monserraat">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Voluptas qui maxime officiis.</p>
+                            <div class="card-subtitle"><a href="#" class="text-danger btn monserraat"><i
+                                        class="fa-solid fa-globe text-danger mx-2"></i>https://buff.ly/2zaSFAQ</a></div>
+                            <small class="card-caption text-white-50 monserraat">21 DEC 2017</small>
+                        </div>
+                    </div>
+                    <div class="card bg-dark ">
+                        <div class="card-body">
+                            <div class="card-subtitle text-danger monserraat "><i
+                                    class="fa-brands fa-twitter mx-2"></i>Fat Chef's resturent</div>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                                qui maxime officiis.</p>
+                            <div class="card-subtitle"><a href="#" class="text-danger btn"><i
+                                        class="fa-solid fa-globe text-danger mx-2"></i>https://buff.ly/2zaSFAQ</a></div>
+                            <small class="card-caption text-white-50 monserraat">21 DEC 2023</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="col">
+                        <h3 class="text-center display-5 coregette text-danger">Gallery</h3>
+                    </div>
+                    <div class="gallery-img ">
+                        <img src="images/1 (1).jpg" alt="">
+                        <img src="images/deliciousfood.jpg" alt="">
+                        <img src="images/table.jpg" alt="">
+                        <img src="images/dessert (2).jpg" alt="">
+                        <img src="images/resturantinner.jpg" alt="">
+                        <img src="images/dessert.jpg" alt="">
+                        <img src="images/burder.jpg" alt="">
+                        <img src="images/redwine.jpg" alt="">
+                        <img src="images/dessert (3).jpg" alt="">
+                        <img src="images/happyhour.jpg" alt="">
+                        <img src="images/food (1).jpg" alt="">
+                        <img src="images/food (2).jpg" alt="">
+                        <img src="images/food (3).jpg" alt="">
+                        <img src="images/food (4).jpg" alt="">
+                        <img src="images/food (5).jpg" alt="">
+                        <img src="images/food (6).jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="text-light">
+        <div class="container-fluid " id="copy-rights">
+            <div class="row">
+                <div class="col-md-6">
+                    <ol class="d-md-flex d-block text-center justify-content-start align-items-start">
+                        <a href="#" class="lead"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#" class="mx-3 lead "><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="lead"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="col-md-6 text-light  d-flex align-items-end justify-content-end"><a href="#"
+                        class="monserraat">@copy-rights to Fat Man's Resturant</a></div>
+            </div>
+
+        </div>
+        <!-- <hr class="text-light"> -->
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="Resturant-Website.js"></script>
+
+
+
+</body>
+
+</html>
